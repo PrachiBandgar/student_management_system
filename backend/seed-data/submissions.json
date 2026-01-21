@@ -1,0 +1,9 @@
+[
+  {
+    "_id": { "$oid": "65c111111111111111111111" },
+    "assignmentId": "65b111111111111111111111",
+    "studentId": "S001",
+    "submittedAt": "2026-01-10",
+    "content": "Answers submitted"
+  }
+]

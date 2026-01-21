@@ -1,0 +1,18 @@
+[
+  {
+    "_id": { "$oid": "65a111111111111111111111" },
+    "title": "Mathematics 101",
+    "description": "Basic mathematics course",
+    "teacher": "65c111111111111111111111",
+    "status": "active",
+    "students": ["65d111111111111111111111", "65d222222222222222222222"]
+  },
+  {
+    "_id": { "$oid": "65a222222222222222222222" },
+    "title": "Physics 201",
+    "description": "Advanced physics course",
+    "teacher": "65c111111111111111111111",
+    "status": "active",
+    "students": ["65d111111111111111111111", "65d222222222222222222222"]
+  }
+]

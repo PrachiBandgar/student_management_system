@@ -1,0 +1,18 @@
+[
+  {
+    "_id": { "$oid": "65b111111111111111111111" },
+    "course": "65a111111111111111111111",
+    "title": "Math Quiz 1",
+    "description": "Algebra basics",
+    "dueDate": "2026-01-20",
+    "teacher": "65c111111111111111111111"
+  },
+  {
+    "_id": { "$oid": "65b222222222222222222222" },
+    "course": "65a222222222222222222222",
+    "title": "Physics Lab Report",
+    "description": "Motion experiment",
+    "dueDate": "2026-01-22",
+    "teacher": "65c111111111111111111111"
+  }
+]
