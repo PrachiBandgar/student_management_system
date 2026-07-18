@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://student-management-system-h41y.onrender.com/api/auth";
+const API = "https://student-management-system-backend-rho.vercel.app/api/auth";
 
 export const registerUser = (data) =>
   axios.post(`${API}/register`, data);

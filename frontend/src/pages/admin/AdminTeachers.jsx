@@ -32,7 +32,7 @@ const AdminTeachers = () => {
     role: "teacher",
   });
 
-  const API_URL = "https://student-management-system-h41y.onrender.com/api";
+  const API_URL = "https://student-management-system-backend-rho.vercel.app/api";
 
   useEffect(() => {
     fetchTeachers();

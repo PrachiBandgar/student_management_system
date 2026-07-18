@@ -7,4 +7,7 @@ import connectDB from "./config/db.js";
 connectDB();
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Open http://localhost:${PORT}/ to see the base URL message.`);
+});

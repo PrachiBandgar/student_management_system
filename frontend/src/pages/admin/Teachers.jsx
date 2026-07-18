@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import DashboardLayout from "../../components/DashboardLayout";
 
-const API_URL = "https://student-management-system-h41y.onrender.com/api";
+const API_URL = "https://student-management-system-backend-rho.vercel.app/api";
 
 const Teachers = () => {
   const [teachers, setTeachers] = useState([]);
