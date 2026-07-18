@@ -23,8 +23,8 @@ export default function AdminLogin() {
     
     try {
       const url = isLogin
-        ? "http://localhost:5000/api/auth/login"
-        : "http://localhost:5000/api/auth/register";
+        ? "https://student-management-system-h41y.onrender.com/api/auth/login"
+        : "https://student-management-system-h41y.onrender.com/api/auth/register";
 
       const payload = isLogin
         ? { email: form.email, password: form.password }
@@ -65,7 +65,7 @@ export default function AdminLogin() {
         alert(err.response.data.message || "Registration failed");
       } else if (err.request) {
         // Request was made but no response received
-        alert("Server is not responding. Please check if backend is running on localhost:5000");
+        alert("Server is not responding. Please try again later.");
       } else {
         // Something else happened
         alert("Error: " + err.message);

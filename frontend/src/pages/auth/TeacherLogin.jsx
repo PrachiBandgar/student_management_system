@@ -17,8 +17,8 @@ export default function TeacherLogin() {
 
     try {
       const url = isLogin
-        ? "http://localhost:5000/api/auth/login"
-        : "http://localhost:5000/api/auth/register";
+        ? "https://student-management-system-h41y.onrender.com/api/auth/login"
+        : "https://student-management-system-h41y.onrender.com/api/auth/register";
 
       const payload = isLogin
         ? { email: form.email, password: form.password }

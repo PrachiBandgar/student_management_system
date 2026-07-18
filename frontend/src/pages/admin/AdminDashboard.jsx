@@ -46,7 +46,7 @@ const AdminDashboard = () => {
     role: "teacher"
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://student-management-system-h41y.onrender.com/api";
 
   useEffect(() => {
     fetchDashboardData();
