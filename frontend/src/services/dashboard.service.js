@@ -6,7 +6,7 @@
  */
 import axios from 'axios';
 
-const API_BASE_URL = 'https://student-management-system-backend-rho.vercel.app/api/dashboard';
+const API_BASE_URL = 'https://student-management-system-h41y.onrender.com/api/dashboard';
 const USE_MOCK = false;
 
 const getAuthHeader = () => {

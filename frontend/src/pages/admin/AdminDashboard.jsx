@@ -46,7 +46,7 @@ const AdminDashboard = () => {
     role: "teacher"
   });
 
-  const API_URL = "https://student-management-system-backend-rho.vercel.app/api";
+  const API_URL = "https://student-management-system-h41y.onrender.com/api";
 
   useEffect(() => {
     fetchDashboardData();

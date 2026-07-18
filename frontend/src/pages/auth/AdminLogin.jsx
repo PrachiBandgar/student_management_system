@@ -23,8 +23,8 @@ export default function AdminLogin() {
     
     try {
       const url = isLogin
-        ? "https://student-management-system-backend-rho.vercel.app/api/auth/login"
-        : "https://student-management-system-backend-rho.vercel.app/api/auth/register";
+        ? "https://student-management-system-h41y.onrender.com/api/auth/login"
+        : "https://student-management-system-h41y.onrender.com/api/auth/register";
 
       const payload = isLogin
         ? { email: form.email, password: form.password }
